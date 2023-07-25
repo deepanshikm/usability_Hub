@@ -1,0 +1,14 @@
+table{
+    border: 5;
+    text-align: center;
+
+}
+
+h1{
+    text-align: center;
+}
+td{
+    text-align: center;
+    height: 50;
+    width: 100;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My weather app</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+   
+  <div class="wrapper">
+    <!-- <header><i class="fa-solid fa-arrow-left"></i>Weather App</header> -->
+    <header>
+    <!-- <i class="fa-solid fa-chevrons-left"></i> -->
+    <!-- <i class="fa-regular fa-arrow-left-long"></i> -->
+    <svg height="25px" width="20px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 483.563 483.563" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <polygon style="fill:#2488FF;" points="483.563,221.781 148.61,221.781 148.61,93.171 0,241.781 148.61,241.781 148.61,261.781 483.563,261.781 "></polygon> <polygon style="fill:#005ECE;" points="0,241.781 148.61,390.392 148.61,241.781 "></polygon> </g> </g></svg>
+    Weather App
+    </header>
+    <section class="input-part">
+      <p class="info-text pending">Please enter a valid city name</p>
+      <input type="text" placeholder="Enter city name" spellcheck="false" required>
+      <div class="seprator"></div>
+      <button>Get device location</button>
+    </section>
+    <section class="weather-part">
+      <img src="images/cloudy.jpg" alt="weather-icon">
+      <div class="temp">
+        <span class="numb">13°</span>C
+        <span class="deg"></span>
+      </div>
+      <div class="weather">Broken Clouds</div>
+      <div class="location">
+        <!-- <i class="fa-regular fa-location-dot"></i> -->
+        <i class="fa-sharp fa-solid fa-location-dot"></i>
+        <span>Kathmandu, Nepal</span>
+      </div>
+      <div class="bottom-details">
+        <div class="coloumn feels">
+          <!-- <i class="fa-light fa-temperature-three-quarters"></i> -->
+          <!-- <i class="fa-solid temp fa-temperature-three-quarters"></i> -->
+          <svg fill="#000000" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>temperature-three-quarters</title> <path d="M20.75 6.008c0-6.246-9.501-6.248-9.5 0v13.238c-1.235 1.224-2 2.921-2 4.796 0 3.728 3.022 6.75 6.75 6.75s6.75-3.022 6.75-6.75c0-1.875-0.765-3.572-2-4.796l-0.001-0zM16 29.25c-2.9-0-5.25-2.351-5.25-5.251 0-1.553 0.674-2.948 1.745-3.909l0.005-0.004 0.006-0.012c0.13-0.122 0.215-0.29 0.231-0.477l0-0.003c0.001-0.014 0.007-0.024 0.008-0.038l0.006-0.029v-13.52c-0.003-0.053-0.005-0.115-0.005-0.178 0-1.704 1.381-3.085 3.085-3.085 0.060 0 0.12 0.002 0.179 0.005l-0.008-0c0.051-0.003 0.11-0.005 0.17-0.005 1.704 0 3.085 1.381 3.085 3.085 0 0.063-0.002 0.125-0.006 0.186l0-0.008v13.52l0.006 0.029 0.007 0.036c0.015 0.191 0.101 0.36 0.231 0.482l0 0 0.006 0.012c1.076 0.966 1.75 2.361 1.75 3.913 0 2.9-2.35 5.25-5.25 5.251h-0zM16.75 21.367v-11.522c0-0.414-0.336-0.75-0.75-0.75s-0.75 0.336-0.75 0.75v0 11.522c-1.164 0.338-2 1.394-2 2.646 0 1.519 1.231 2.75 2.75 2.75s2.75-1.231 2.75-2.75c0-1.252-0.836-2.308-1.981-2.641l-0.019-0.005zM26.5 2.25c-1.795 0-3.25 1.455-3.25 3.25s1.455 3.25 3.25 3.25c1.795 0 3.25-1.455 3.25-3.25v0c-0.002-1.794-1.456-3.248-3.25-3.25h-0zM26.5 7.25c-0.966 0-1.75-0.784-1.75-1.75s0.784-1.75 1.75-1.75c0.966 0 1.75 0.784 1.75 1.75v0c-0.001 0.966-0.784 1.749-1.75 1.75h-0z"></path> </g></svg>
+          <div class="details">
+            <div class="temp">
+              <span class="numb-2">17°</span>
+              <span class="deg"></span>C
+            </div>
+            <p>Feels like</p>
+          </div>
+        </div>
+  <div class="coloumn humidity">
+    <!-- <i class="fa-sharp fa-solid fa-droplet"></i> -->
+    <!-- <i class="fa-sharp fa-regular fa-droplet"></i> -->
+    <!-- <i class="fa-regular fa-droplet-degree"></i> -->
+    <svg fill="#000000" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <title>droplet</title> <path d="M16.974 1.168c-0.229-0.256-0.561-0.417-0.931-0.418h-0.002c-0 0-0 0-0 0-0.369 0-0.7 0.16-0.928 0.414l-0.001 0.001c-2.002 2.229-11.987 13.586-11.987 18.335 0 5.289 5.961 11.75 12.917 11.75 7.109 0 12.834-6.428 12.834-11.75 0-4.848-10.684-16.966-11.901-18.332zM16.041 28.75c-5.943 0-10.417-5.611-10.417-9.25 0-2.734 6.040-10.598 10.414-15.61 4.343 5.013 10.337 12.873 10.337 15.61 0 3.639-4.438 9.25-10.334 9.25zM15.558 24.912c-2.679-0.81-4.805-2.722-5.889-5.194l-0.023-0.060c-0.184-0.475-0.638-0.806-1.169-0.806-0.69 0-1.25 0.56-1.25 1.25 0 0.156 0.029 0.306 0.081 0.443l-0.003-0.009c1.386 3.303 4.149 5.792 7.551 6.776l0.083 0.020c0.092 0.025 0.197 0.039 0.306 0.039 0.002 0 0.004 0 0.005 0h-0c0.69-0.001 1.249-0.56 1.249-1.25 0-0.58-0.395-1.068-0.931-1.209l-0.009-0.002z"></path> </g></svg>
+    <div class="details">
+        <span class="numb">84%</span>
+      <p>Humidity</p>
+    </div>
+  </div>
+  </div>
+  </div>
+  </section>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
